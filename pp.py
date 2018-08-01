@@ -17,7 +17,7 @@ filtered_email_data=[' '.join([str(c) for c in lst]) for lst in email_data]#conv
 domain_list=[]
 j=0#initializing index
 
-for j in range(0,len(filtered_email_data)):#adding domail expections to array
+for j in range(0,len(filtered_email_data)):#adding domain extentions to array
     domain_list.append(re.findall(("[.].*"),filtered_email_data[j]))#regular expression for filtering email-domain extention from data
     j=j+1
 
