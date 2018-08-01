@@ -7,3 +7,5 @@ The essential components for extracting email domain name and the domain-extenti
 <li>For extracting Email Domain name use: "(?<=@)[\w+.-]+"</li>
 <li>For extracting Email-Domain extention use: "[.].*"</li>
 </ul>
+
+[Screenshot](Figure_1.png)
