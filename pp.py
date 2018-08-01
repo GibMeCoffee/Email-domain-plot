@@ -3,7 +3,7 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 data=[]
-df=pd.read_csv('/data/MOCK_DATA.csv')#Data file
+df=pd.read_csv('MOCK_DATA.csv')#Data file
 data=df['email']#Selecting Columns
 
 email_data=[]
