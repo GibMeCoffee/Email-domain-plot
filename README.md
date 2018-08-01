@@ -8,4 +8,8 @@ The essential components for extracting email domain name and the domain-extenti
 <li>For extracting Email-Domain extention use: "[.].*"</li>
 </ul>
 
-[Screenshot](Figure_1.png)
+This is the final output:
+
+<p align="center">
+  <img src="Figure_1.png" width="550">
+</p>
